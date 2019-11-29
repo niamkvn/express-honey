@@ -1,0 +1,12 @@
+-jika host !=localhost/domain server maka simpan di database
+-simpan ip address selama 1 detik 10 request
+	-terima request
+	-jika ip address request sama dengan ip addresss sebelumnya maka simpan
+	-ke database
+
+
+treshold:
+10 detik = 100 req
+5 detik = 50 req
+2 detik = 20 req
+1 detik = 10 req
